@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/529d3b59d7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <form action="search" class="search">
+                <input type="text" class="search-input" placeholder="Aktobe">
+                <button class="search-button" type="submit"><img src="img/search.svg" alt="search"></button>
+            </form>
+            <div class="main-weather">
+                <div class="weather-left">
+                    <div class="weather-info">
+                        <h3 class="text">Aktobe</h3>
+                        <button class="like-button "><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                    <div class="weather-main">
+                        <h3 class="weather-degrees">20°</h3>
+                        <div class="weather-image"><img src="img/sunny.svg" alt="weather" class="weather-img"></div>
+                    </div>
+                    <div class="weather-info-2">
+                        <h3 class="weather-info-2-item">Feels like: <span class="info-feels">20</span></h3>
+                        <h3 class="weather-info-2-item">Sunrise: <span class="info-sunrise">20</span></h3>
+                        <h3 class="weather-info-2-item">Sunset: <span class="info-sunset">20</span></h3>
+                    </div>
+                    <div class="weather-forecast">
+                        <div class="forecast-item">
+                            <h3 class="item-time">12:00</h3>
+                            <div class="item-info">
+                                <div class="item-total">
+                                    <h4>Temperature: <span class="item-temperature">12</span></h4>
+                                    <h4>Feels like: <span class="item-feels">11</span></h4>
+                                </div>
+                                <div class="info-container">
+                                    <img src="img/rain.svg" class="item-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forecast-item">
+                            <h3 class="item-time">12:00</h3>
+                            <div class="item-info">
+                                <div class="item-total">
+                                    <h4>Temperature: <span class="item-temperature">12</span></h4>
+                                    <h4>Feels like: <span class="item-feels">11</span></h4>
+                                </div>
+                                <div class="info-container">
+                                    <img src="img/rain.svg" class="item-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forecast-item">
+                            <h3 class="item-time">12:00</h3>
+                            <div class="item-info">
+                                <div class="item-total">
+                                    <h4>Temperature: <span class="item-temperature">12</span></h4>
+                                    <h4>Feels like: <span class="item-feels">11</span></h4>
+                                </div>
+                                <div class="info-container">
+                                    <img src="img/rain.svg" class="item-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather-right">
+                    <h3 class="weather-text">Added locations:</h3>
+                    <ul class="weather-ul"> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>

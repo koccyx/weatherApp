@@ -1,0 +1,19 @@
+{
+  "name": "koccyx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/script.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint ./"
+  },
+  "author": "koccyx",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "parcel": "^2.9.3"
+  }
+}

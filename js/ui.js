@@ -1,0 +1,18 @@
+export const UI = {
+    FORM: document.querySelector('.search'),
+    INPUT: document.querySelector('.search-input'),
+    BUTTON: document.querySelector('.search-button'),
+    OUTPUT: document.querySelector('.weather-left'),
+    FAVORITES_UL: document.querySelector('.weather-ul'),
+    DEGREES: document.querySelector('.weather-degrees'),
+    LIKE: document.querySelector('.like-button'),
+    IMG: document.querySelector('.weather-img'),
+    MAIN_TEXT: document.querySelector('.text'),
+    FEELS: document.querySelector('.info-feels'),
+    SUNRISE: document.querySelector('.info-sunrise'),
+    SUNSET: document.querySelector('.info-sunset'),
+    FORECAST_TIME: document.querySelectorAll('.item-time'),
+    FORECAST_TEMPERATURE: document.querySelectorAll('.item-temperature'),
+    FAORECAST_FEELS: document.querySelectorAll('.item-feels'),
+    FORECAST_IMG: document.querySelectorAll('.item-img'),
+};

@@ -1,0 +1,145 @@
+@import url("reset.css");
+
+*, html {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+i {
+    display: block;
+}
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8D1D1;
+}
+.container {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    max-width: 25rem;
+    min-height: 15rem;
+    background-color: #ffffff62;
+    border-radius: 0.8rem;
+    padding: .5rem;
+}
+.search {
+    height: 2rem;
+    display: flex;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.search-input {
+    height: 100%;
+    flex: 1;
+}
+.search-button {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-button:hover img{
+    width: 1.4rem;
+}
+.search-button img {
+    width: 1.1rem;
+    transition: .1s ease-in-out;
+}
+.main-weather {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+.weather-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.weather-main {
+    display: flex;
+    flex-direction: row;
+}
+.weather-degrees {
+    font-size: 3rem;
+}
+.weather-image {
+    display: flex;
+    justify-content: center;
+    
+}
+.weather-image img {
+    width: 2rem;
+    height: 2rem;
+}
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like-button {    
+    height: 1.4rem;
+    width: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .1s ease-in-out;
+}
+.like-button:hover {
+    font-size: 1.2rem;
+}
+.active {
+    color: #fc6072;
+}
+.weather-right {
+    flex: 1;
+}
+.weather-info-2 {
+    font-size: 21px;
+    padding-bottom: 0.5rem;
+}
+.weather-info-2-item:not(:last-child) {
+    padding-bottom: 0.3em;
+}
+.weather-text {
+    padding-top: 1rem;
+}
+.weather-ul {
+    padding-top: 1rem;
+}
+.weather-li:not(:last-child) {
+    padding-bottom: .7rem;
+}
+.weather-li {
+    transition: .1s ease;
+    cursor: pointer;
+}
+.weather-li:hover {
+    font-size: 1.1rem;
+}
+.weather-forecast {
+    font-size: 18px;
+}
+.forecast-item {
+    display: flex;
+    flex-direction: column;
+    padding: .3rem;
+    gap: 1rem;
+}
+.forecast-item:not(:last-child) {
+    border-bottom: 2px solid black;
+}
+.item-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-img {
+    width: 2rem;
+    height: 2rem;
+}
